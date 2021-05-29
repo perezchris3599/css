@@ -1,0 +1,83 @@
+body{
+    background-color:white;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+
+
+#main-header{
+    background-color:orangered;
+    color:#ffff;
+}
+
+#navbar{
+    background-color:#333;
+    color:#ffff;
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    color:#ffff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+#showcase{
+    background-image:url('../images/water3.jpg');
+    background-position:center;
+    height:300px;
+    margin-bottom:30px;
+    text-align:center;
+}
+#showcase{
+    color:#fff;
+    font-size:50px;
+    line-height: 1.6em;
+    padding-top:30px;
+}
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    float:right;
+    width:100%;
+    background: #333;
+    color:yellowgreen;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+
+#main-footer{
+    background:orangered;
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    margin-top:40px;
+}
+@media(max-width:600px){
+     #main{
+         width:100%;
+         float:none;
+     }
+}
+
